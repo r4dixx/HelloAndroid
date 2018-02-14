@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SalutAndroid</string>
+    <string name="Name">Udacity</string>
+    <string name="Address">2465 Latham St\nMountain View, CA 94043</string>
+    <string name="PhoneNumber">+33 6 55 55 55 55</string>
+    <string name="PhoneType">Bureau</string>
+    <string name="WebsiteText">udacity.com</string>
+    <string name="AboutTitle">À propos de Udacity</string>
+    <string name="ContentDescriptionHero">Voilà quelques jolis T-shirts Udacity</string>
+    <string name="ContentDescriptionLinebreak">Saut de ligne</string>
+    <string name="ContentDescriptionPhoneIcon">Le numéro de téléphone est juste à côté</string>
+    <string name="ContentDescriptionBusinessIcon">L\'adresse du bureau est juste à côté</string>
+    <string name="ContentDescriptionLinkIcon">Le site web est juste à côté</string>
+</resources>

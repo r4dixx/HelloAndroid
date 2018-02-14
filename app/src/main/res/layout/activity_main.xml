@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/Hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/ContentDescriptionHero"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/udacity_shirts" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Hero"
+            android:layout_marginBottom="@dimen/dimenMarginPlus"
+            android:layout_marginLeft="@dimen/dimenMarginRegular"
+            android:layout_marginStart="@dimen/dimenMarginRegular"
+            android:layout_marginTop="@dimen/dimenMarginPlus"
+            android:contentDescription="@string/Name"
+            android:text="@string/Name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dimenTextSizeHeadline" />
+
+        <View
+            android:id="@+id/Line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/Name"
+            android:background="@color/colorLine"
+            android:contentDescription="@string/ContentDescriptionLinebreak" />
+
+        <ImageView
+            android:id="@+id/PhoneImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Line"
+            android:layout_marginLeft="@dimen/dimenMarginRegular"
+            android:layout_marginRight="@dimen/dimenMarginRegular"
+            android:layout_marginTop="@dimen/dimenMarginPlus"
+            android:contentDescription="@string/ContentDescriptionPhoneIcon"
+            android:src="@drawable/ic_call" />
+
+        <TextView
+            android:id="@+id/PhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Line"
+            android:layout_marginBottom="@dimen/dimenMarginLight"
+            android:layout_marginTop="@dimen/dimenMarginPlus"
+            android:layout_toEndOf="@id/PhoneImage"
+            android:layout_toRightOf="@id/PhoneImage"
+            android:autoLink="phone"
+            android:contentDescription="@string/PhoneNumber"
+            android:text="@string/PhoneNumber"
+            android:textColor="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="@dimen/dimenTextSizeBody" />
+
+        <TextView
+            android:id="@+id/PhoneType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PhoneNumber"
+            android:layout_marginBottom="@dimen/dimenMarginPlus"
+            android:layout_toEndOf="@id/PhoneImage"
+            android:layout_toRightOf="@id/PhoneImage"
+            android:contentDescription="@string/AboutTitle"
+            android:text="@string/PhoneType"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/dimenTextSizeBody" />
+
+        <View
+            android:id="@+id/Line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/PhoneType"
+            android:background="@color/colorLine"
+            android:contentDescription="@string/ContentDescriptionLinebreak" />
+
+        <TextView
+            android:id="@+id/About"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Line2"
+            android:layout_marginBottom="@dimen/dimenMarginLess"
+            android:layout_marginLeft="@dimen/dimenMarginRegular"
+            android:layout_marginStart="@dimen/dimenMarginRegular"
+            android:layout_marginTop="@dimen/dimenMarginPlus"
+            android:contentDescription="@string/AboutTitle"
+            android:text="@string/AboutTitle"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/Title"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/BusinessImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/About"
+            android:layout_margin="@dimen/dimenMarginRegular"
+            android:contentDescription="@string/ContentDescriptionBusinessIcon"
+            android:src="@drawable/ic_business" />
+
+        <TextView
+            android:id="@+id/BusinessAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/WebsiteText"
+            android:layout_alignStart="@+id/WebsiteText"
+            android:layout_below="@id/About"
+            android:layout_marginTop="@dimen/dimenMarginRegular"
+            android:autoLink="map"
+            android:contentDescription="@string/Address"
+            android:text="@string/Address"
+            android:textColor="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="@dimen/dimenTextSizeBody" />
+
+        <ImageView
+            android:id="@+id/WebsiteImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BusinessImage"
+            android:layout_margin="@dimen/dimenMarginRegular"
+            android:contentDescription="@string/ContentDescriptionLinkIcon"
+            android:src="@drawable/ic_insert_link" />
+
+        <TextView
+            android:id="@+id/WebsiteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BusinessAddress"
+            android:layout_marginBottom="@dimen/dimenMarginPlus"
+            android:layout_marginTop="@dimen/dimenMarginRegular"
+            android:layout_toEndOf="@id/PhoneImage"
+            android:layout_toRightOf="@id/PhoneImage"
+            android:autoLink="web"
+            android:contentDescription="@string/WebsiteText"
+            android:text="@string/WebsiteText"
+            android:textColorLink="@android:color/black"
+            android:textSize="@dimen/dimenTextSizeBody" />
+
+        <View
+            android:id="@+id/Line3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/WebsiteText"
+            android:background="@color/colorLine"
+            android:contentDescription="@string/ContentDescriptionLinebreak" />
+
+    </RelativeLayout>
+</ScrollView>

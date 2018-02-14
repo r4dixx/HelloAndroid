@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimenMarginLight">5dp</dimen>
+    <dimen name="dimenMarginLess">10dp</dimen>
+    <dimen name="dimenMarginRegular">16dp</dimen>
+    <dimen name="dimenMarginPlus">18dp</dimen>
+    <dimen name="dimenTextSizeHeadline">24sp</dimen>
+    <dimen name="dimenTextSizeBody">15sp</dimen>
+    <dimen name="Title">13sp</dimen>
+</resources>
