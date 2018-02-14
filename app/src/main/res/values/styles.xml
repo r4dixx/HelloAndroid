@@ -2,10 +2,70 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- ScrollView -->
+    <style name="ScrollView" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- Hero image -->
+    <style name="heroImage" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:cropToPadding">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Title -->
+    <style name="title" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:layout_marginBottom">@dimen/dimenMarginPlus</item>
+        <item name="android:layout_marginLeft">@dimen/dimenMarginRegular</item>
+        <item name="android:layout_marginStart">@dimen/dimenMarginRegular</item>
+        <item name="android:layout_marginTop">@dimen/dimenMarginPlus</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/dimenTextSizeHeadline</item>
+    </style>
+
+    <!-- Subtitle -->
+    <style name="subtitle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:layout_marginLeft">@dimen/dimenMarginRegular</item>
+        <item name="android:layout_marginStart">@dimen/dimenMarginRegular</item>
+        <item name="android:layout_marginTop">@dimen/dimenMarginPlus</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/Title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Icons -->
+    <style name="icon" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:layout_marginTop">@dimen/dimenMarginPlus</item>
+        <item name="android:layout_marginBottom">@dimen/dimenMarginRegular</item>
+        <item name="android:layout_marginLeft">@dimen/dimenMarginRegular</item>
+        <item name="android:layout_marginRight">@dimen/dimenMarginRegular</item>
+    </style>
+
+    <!-- Links -->
+    <style name="link" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:layout_marginTop">@dimen/dimenMarginPlus</item>
+        <item name="android:layout_marginBottom">@dimen/dimenMarginLight</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorLink">@android:color/black</item>
+        <item name="android:textSize">@dimen/dimenTextSizeBody</item>
+    </style>
+
+    <!-- Description -->
+    <style name="description" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:layout_marginBottom">@dimen/dimenMarginPlus</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">@dimen/dimenTextSizeBody</item>
+    </style>
+
+    <!-- Lines -->
+    <style name="line" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:layout_height">@dimen/lineHeight</item>
+        <item name="android:background">@color/colorLine</item>
     </style>
 
 </resources>

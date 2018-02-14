@@ -6,5 +6,6 @@
     <dimen name="dimenMarginPlus">18dp</dimen>
     <dimen name="dimenTextSizeHeadline">24sp</dimen>
     <dimen name="dimenTextSizeBody">15sp</dimen>
+    <dimen name="lineHeight">1dp</dimen>
     <dimen name="Title">13sp</dimen>
 </resources>
