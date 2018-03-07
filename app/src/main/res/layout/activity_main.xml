@@ -14,6 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/ContentDescriptionHero"
+            android:scaleType="centerCrop"
             android:src="@drawable/udacity_shirts" />
 
         <TextView
@@ -124,11 +125,11 @@
             android:text="@string/WebsiteText" />
 
         <View
-            android:layout_marginTop="@dimen/dimenMarginRegular"
             android:id="@+id/Line3"
             style="@style/line"
             android:layout_width="match_parent"
             android:layout_below="@id/WebsiteText"
+            android:layout_marginTop="@dimen/dimenMarginRegular"
             android:contentDescription="@string/ContentDescriptionLinebreak" />
 
     </RelativeLayout>
