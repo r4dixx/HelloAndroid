@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
+=======
+    <mapping directory="/media/storage/Android/AndroidStudioProjects/HelloAndroid" vcs="Git" />
+>>>>>>> 33451ac... Cleanup and upgrades
   </component>
 </project>
